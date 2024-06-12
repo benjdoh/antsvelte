@@ -1,0 +1,137 @@
+@import url('./main.css');
+
+:root {
+	/* color primary */
+	--ant-color-primary-bg: hsl(205 100% 95%);
+	--ant-color-primary-bg-hover: hsl(207 100% 86%);
+	--ant-color-primary-border: hsl(209 100% 78%);
+	--ant-color-primary-border-hover: hsl(211 100% 71%);
+	--ant-color-primary-hover: hsl(213 100% 63%);
+	--ant-color-primary: hsl(215 100% 54%);
+	--ant-color-primary-active: hsl(217 92% 44%);
+	--ant-color-primary-text-hover: hsl(213 100% 63%);
+	--ant-color-primary-text: hsl(215 100% 54%);
+	--ant-color-primary-text-active: hsl(217 92% 44%);
+
+	/* color success */
+	--ant-color-success-bg: hsl(90 100% 96%);
+	--ant-color-success-bg-hover: hsl(92 78% 86%);
+	--ant-color-success-border: hsl(94 70% 74%);
+	--ant-color-success-border-hover: hsl(96 65% 63%);
+	--ant-color-success-hover: hsl(96 65% 63%);
+	--ant-color-success: hsl(100 77% 44%);
+	--ant-color-success-active: hsl(102 85% 34%);
+	--ant-color-success-text-hover: hsl(98 62% 53%);
+	--ant-color-success-text: hsl(100 77% 44%);
+	--ant-color-success-text-active: hsl(102 85% 34%);
+
+	/* color warning */
+	--ant-color-warning-bg: hsl(50 100% 95%);
+	--ant-color-warning-bg-hover: hsl(48 100% 86%);
+	--ant-color-warning-border: hsl(46 100% 78%);
+	--ant-color-warning-border-hover: hsl(44 100% 70%);
+	--ant-color-warning-hover: hsl(44 100% 70%);
+	--ant-color-warning: hsl(40 96% 53%);
+	--ant-color-warning-active: hsl(38 94% 43%);
+	--ant-color-warning-text-hover: hsl(42 100% 62%);
+	--ant-color-warning-text: hsl(40 96% 53%);
+	--ant-color-warning-text-active: hsl(38 94% 43%);
+
+	/* color error */
+	--ant-color-error-bg: hsl(8 100% 97%);
+	--ant-color-error-bg-hover: hsl(4 100% 97%);
+	--ant-color-error-border: hsl(5 100% 89%);
+	--ant-color-error-border-hover: hsl(3 100% 81%);
+	--ant-color-error-hover: hsl(1 100% 73%);
+	--ant-color-error: hsl(359 100% 65%);
+	--ant-color-error-active: hsl(357 68% 53%);
+	--ant-color-error-text-hover: hsl(1 100% 73%);
+	--ant-color-error-text: hsl(359 100% 65%);
+	--ant-color-error-text-active: hsl(357 68% 53%);
+
+	/* color info */
+	--ant-color-info-bg: var(--ant-color-primary-bg);
+	--ant-color-info-bg-hover: var(--ant-color-primary-bg-hover);
+	--ant-color-info-border: var(--ant-color-primary-border);
+	--ant-color-info-border-hover: var(--ant-color-primary-border-hover);
+	--ant-color-info-hover: var(--ant-color-primary-hover);
+	--ant-color-info: var(--ant-color-primary);
+	--ant-color-info-active: var(--ant-color-primary-active);
+	--ant-color-info-text-hover: var(--ant-color-primary-text-hover);
+	--ant-color-info-text: var(--ant-color-primary-text);
+	--ant-color-info-text-active: var(--ant-color-primary-text-active);
+
+	/* color link */
+	--ant-color-link-hover: 211 100% 71%;
+	--ant-color-link-active: 217 92% 44%;
+
+	/* color neutral */
+	--ant-color-text: hsla(0 0% 0% 0.88);
+	--ant-color-text-secondary: hsla(0 0% 0% 0.65);
+	--ant-color-text-tertiary: hsla(0 0% 0% 0.45);
+	--ant-color-text-quaternary: hsla(0 0% 0% 0.25);
+	--ant-color-bg-container: hsla(0, 0%, 100%);
+	--ant-color-bg-elevated: hsla(0, 0%, 100%);
+	--ant-color-bg-layout: hsla(0, 0%, 96%);
+	--ant-color-bg-spotlight: hsla(0, 0%, 0%, 0.85);
+	--ant-color-bg-mask: hsla(0, 0%, 0%, 0.45);
+	--ant-color-border: hsla(0, 0%, 85%);
+	--ant-color-border-secondary: hsla(0, 0%, 94%);
+	--ant-color-fill: hsla(0, 0%, 0%, 0.15);
+	--ant-color-fill-secondary: hsla(0, 0%, 0%, 0.06);
+	--ant-color-fill-tertiary: hsla(0, 0%, 0%, 0.04);
+	--ant-color-fill-quanternary: hsla(0, 0%, 0%, 0.02);
+
+	/* font */
+	--ant-font-size: 14px;
+	--ant-font-size-sm: 12px;
+	--ant-font-size-lg: 16px;
+	--ant-font-size-xl: 20px;
+	--ant-font-size-heading-1: 38px;
+	--ant-font-size-heading-2: 30px;
+	--ant-font-size-heading-3: 24px;
+	--ant-font-size-heading-4: 20px;
+	--ant-font-size-heading-5: 16px;
+	--ant-line-height: 1.5714285714285714;
+	--ant-line-height-sm: 1.6666666666666667;
+	--ant-line-height-lg: 1.5;
+	--ant-line-height-heading-1: 1.2105263157894737;
+	--ant-line-height-heading-2: 1.2666666666666666;
+	--ant-line-height-heading-3: 1.3333333333333333;
+	--ant-line-height-heading-4: 1.4;
+	--ant-line-height-heading-5: 1.5;
+
+	--ant-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+		'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+		'Noto Color Emoji';
+	--ant-font-family-code: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+
+	/* spacing */
+	--ant-margin-xxs: 4px;
+	--ant-margin-xs: 8px;
+	--ant-margin-sm: 12px;
+	--ant-margin: 16px;
+	--ant-margin-md: 20px;
+	--ant-margin-lg: 24px;
+	--ant-margin-xl: 32px;
+	--ant-margin-xxl: 48px;
+	--ant-padding-xxs: 4px;
+	--ant-padding-xs: 8px;
+	--ant-padding-sm: 12px;
+	--ant-padding: 16px;
+	--ant-padding-md: 20px;
+	--ant-padding-lg: 24px;
+	--ant-padding-xl: 32px;
+
+	/* border */
+	--ant-border-radius-xs: 2px;
+	--ant-border-radius-sm: 4px;
+	--ant-border-radius: 6px;
+	--ant-border-radius-lg: 7px;
+
+	/* shadow */
+	--ant-box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12),
+		0 9px 28px 8px rgba(0, 0, 0, 0.05);
+	--ant-box-shadow-secondary: 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12),
+		0 9px 28px 8px rgba(0, 0, 0, 0.05);
+}

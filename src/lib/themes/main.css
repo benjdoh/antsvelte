@@ -1,0 +1,42 @@
+* {
+	@apply font-sans;
+}
+
+.alibaba-puhuiti {
+	font-family: 'alibaba-puhuiti', sans-serif;
+	font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@apply text-text font-semibold mb-xxs mt-xl;
+}
+
+h1 {
+	@apply text-heading-1 leading-heading-1;
+}
+
+h2 {
+	@apply text-heading-2 leading-heading-2;
+}
+
+h3 {
+	@apply text-heading-3 leading-heading-3;
+}
+
+h4 {
+	@apply text-heading-4 leading-heading-4;
+}
+
+h5 {
+	@apply text-heading-5 leading-heading-5;
+}
+
+ul {
+	list-style-type: circle;
+	@apply pl-md;
+}
